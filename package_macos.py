@@ -48,7 +48,11 @@ def parse_args(argv: list[str] | None = None) -> argparse.Namespace:
     parser.add_argument(
         "--output",
         type=Path,
-        default=DEFAULT_OUTPUT,
+        default=DEFAULT_OUTPUT,\
+
+
+
+        
         help=f"Output path for the executable (default: {DEFAULT_OUTPUT})",
     )
     return parser.parse_args(argv)
