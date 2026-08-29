@@ -1,5 +1,7 @@
 # Zoom 1132 reset helper
 
+_A BagelTech project._
+
 This repository provides a small, cross-platform Python command-line utility to reset Zoom after encountering the **1132** error. The script:
 
 - Detects and terminates running Zoom-related processes (optional).
